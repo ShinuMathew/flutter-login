@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import './home/home.dart';
 import './home/layout.dart';
+import './home/chaiwala.dart';
 
 void main() => runApp(MyApp());
 
@@ -13,7 +14,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       // theme: ThemeData(primaryColor: Colors.green[900]),
-      home: LayoutWidget()
+      home: ChaiwalaWidget()
       // home: HomeWidget(),
     );
   }

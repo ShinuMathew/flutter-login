@@ -10,7 +10,8 @@ class HomeWidget extends StatelessWidget {
         title: Text("MAKOLET", textAlign: TextAlign.center, style: TextStyle(fontFamily: "Rajdhanni")),  // or add prop centerTitle : true
         backgroundColor: Colors.green[600],
       ),
-      backgroundColor: Colors.deepOrange[50],
+      // backgroundColor: Colors.deepOrange[50],
+
       body: Center(
         child: new Column(
           crossAxisAlignment: CrossAxisAlignment.center,
